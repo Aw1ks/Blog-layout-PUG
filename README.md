@@ -27,9 +27,3 @@ The project is organized with Pug files for templating the HTML structure. Here'
 3.  **Styling:** Create or modify the `../../css/style.css` file to style the website.
 4.  **Images:** Place the images used in the project (e.g., `../../media/png/1.png`, `../../media/svg/Logotype.svg`) in the appropriate directories.
 5. **Run:** Open the generated HTML files in your browser.
-## Next Steps
-*   **Complete CSS Styling:** The `style.css` file needs to be created and populated with CSS rules to style the website.
-*   **JavaScript Interactivity:** Add JavaScript to handle the burger menu, dropdown interactions, and other dynamic elements.
-*   **Content Population:** Replace the placeholder content in the post cards with actual blog post data.
-*   **Backend Integration:** Consider integrating a backend system to manage blog posts and user data.
-* **Add more pages:** Create more pages for the website, such as a single post page, category pages, etc.
