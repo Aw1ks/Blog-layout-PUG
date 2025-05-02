@@ -1,3 +1,4 @@
+
 mixin select-item(item)
     div.header__select-item
         span.header__select-item-text= item
@@ -7,7 +8,7 @@ mixin custom-select(name)
         .header__select-header
             span.header__select-current= name
             .header__select-icon
-                img.header__select-icon-img(src='../../media/svg/Select-icon.svg' alt='')
+                img.header__select-icon-img(src='../media/svg/Select-icon.svg' alt='')
         .header__select-body
             +select-item('Post Header')
             +select-item('Post Layout')
@@ -19,7 +20,7 @@ header.header
     .header__top
         .header__burger
             span.header__burger-menu
-        img.header__logo(src='../../media/svg/Logotype.svg', alt='')
+        img.header__logo(src='../media/svg/Logotype.svg', alt='')
         .header__top_right
             input.header__text-field(type="text", placeholder="Поиск")
             button.header__search
