@@ -17,6 +17,19 @@ mixin custom-select(name)
             +select-item('Video Post')
 
 header.header
+    .header__mobile
+        .header__mobile-top
+            img.header__logo(src='../media/svg/Logotype.svg', alt='')
+            .header__close-btn
+                span.header__mobile-cross
+        .header__bottom_mobile
+            +custom-select('Demos')
+            +custom-select('Post')
+            +custom-select('Features')
+            +custom-select('Categories')
+            +custom-select('Shop')
+            a.header__link(href="#") Buy Now
+
     .header__top
         .header__burger
             span.header__burger-menu
