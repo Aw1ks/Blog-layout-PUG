@@ -1,3 +1,54 @@
+@media (min-width: 320px) {
+    .main {
+        margin: 1.875rem 2% 0 2%;
+    }
+
+    .main__card {
+        width: 100%; 
+        margin: 0 0 2rem 0;
+    }
+}
+
+@media (min-width: 600px) {
+    .main {
+        margin: 1.875rem 0 0 4%;
+    }
+
+    .main__card {
+        width: 45%;
+        margin: 0 5% 2rem 0;
+    }
+
+    .main__card:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .main {
+        margin: 1.875rem 0 0 0;
+        justify-content: center;
+    }
+
+    .main__card {
+        width: 45%;
+        margin-bottom: 1.25rem;
+        padding: 1.25rem;
+        border: 1px solid #ccc;
+        border-radius: 0.5rem;
+        box-shadow: 0 0.25rem 0.5rem rgba(0, 0, 0, 0.1);
+    }
+
+    .main__card:nth-child(2n) {
+        margin-right: 5%;
+    }
+
+    .main__card:nth-child(3n) {
+        margin-right: 0;
+    }
+}
+
+
 .main {
     font-family: 'Roboto', sans-serif;
     display: flex;
