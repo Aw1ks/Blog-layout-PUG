@@ -44,6 +44,7 @@
     font-size: 0.625rem;
     line-height: 1.125rem;
     color: #929292;
+    margin-bottom: 1rem;
 }
 
 .main__card-user {
@@ -88,7 +89,6 @@
     }
 
     .main__card {
-        /* margin: 0 20% 2rem 20%; */
         margin: 0 40px 2rem 40px;
         padding: 0.6rem;
     }
