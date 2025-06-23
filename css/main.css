@@ -92,13 +92,16 @@
         margin: 0 40px 2rem 40px;
         padding: 0.6rem;
     }
+
+    .main__card-description {
+        padding-bottom: 0.6rem;
+    }
 }
 
 @media (min-width: 600px) {
     .main {
         flex-direction: row;
         margin: 1.875rem 0 0 4%;
-
     }
 
     .main__card {
